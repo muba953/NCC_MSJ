@@ -4,7 +4,7 @@ a= 0
 b = 0
 
 for x in m:
-    if x != -1:          # ignore walks
+    if x != -1:          
         a += x
         b += 1
 
