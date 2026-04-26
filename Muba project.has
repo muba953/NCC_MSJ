@@ -1,0 +1,211 @@
+# muab.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#image">Image</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#bottom">Bottom</a></li>
+        <li><a href="#course">Table</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="h1">
+    <h1>Mubarak Wabela</h1>
+</section>
+<hr>
+
+<section id="aboutme">
+    <p>
+        My name is <b>Mubarak</b>. I am a Second Year 
+        <i>chemical engineering student</i> who is passionate 
+        about programming and problem solving.
+    </p>
+</section>
+<button onclick="toggleMode()">Toggle Mode</button>
+</hr>
+
+<section id="image">
+    <img src="hacker.jpg" width="180" height="200" alt="Profile Photo">
+</section>
+
+<hr>
+
+<section id="skill">
+    <h2>My Skills</h2>
+    <ul>
+        <li>C++ Programming</li>
+        <li>HTML Basics</li>
+        <li>Problem Solving</li>
+    </ul>
+</section>
+
+<hr>
+
+<section id="course">
+    <h2>My Courses</h2>
+    <ol>
+        <li>Numerical Methods</li>
+        <li>Thermodynamics</li>
+        <li>Fluid Mechanics</li>
+    </ol>
+
+    <h2>Education</h2>
+    <table border="2">
+        <tr>
+            <th>Course Name</th>
+            <th>Year</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Chemical Engineering</td>
+            <td>Year 2</td>
+            <td>In Progress</td>
+        </tr>
+        <tr>
+            <td>C++ Programming</td>
+            <td>Year 1</td>
+            <td>Completed</td>
+        </tr>
+    </table>
+</section>
+
+<hr>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="4" cols="30" name="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<hr>
+
+<h2>Links</h2>
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+<br><br>
+<a href="#bottom">Go to Bottom</a>
+<br><br>
+<a href="https://www.google.com">Visit Google</a>
+
+<hr>
+
+<h2>Learning Video</h2>
+<iframe width="400" height="250"
+    src="https://www.youtube.com/embed/qz0aGYrrlhU"
+    allowfullscreen>
+</iframe>
+
+<hr>
+
+<section id="bottom">
+    <h3>End of Page</h3>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+# style.css
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+/* Element Selector */
+body {
+    background-color: rgb(194, 199, 194);
+    text-align: center;   /* FIXED */
+}
+
+/* ID Selector */
+#title {
+    color: darkgreen;
+    text-align: center;   /* FIXED */
+    margin: 20px;
+    padding-bottom:40px;
+}
+
+/* Class Selector */
+.card {
+    background-color: green;
+    padding: 6px;         /* FIXED */
+    margin: 10px auto;
+    width: 50px;
+    border: 20px solid black;
+}
+
+/* Group Selector */
+h2, p {
+    color: rgb(0, 255, 42);
+}
+
+/* Another Class Selector */
+.name {
+    font-size: 20px;      /* FIXED */
+    margin-bottom: 10px;  /* FIXED */
+}
+
+
+info {
+    font-size: 18px;
+}
+
+/* Headings & paragraphs */
+h2, p {
+    color: green;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    background: black;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin:85px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Image */
+img {
+    width: 160px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid black; 
+    margin-left:200;
+    margin-right:700px;
+   
+}
+
+
